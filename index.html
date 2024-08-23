@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./Bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./Bootstrap/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+  <!-- 导航栏 -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">大能上首页</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="#">热点新闻</a>
+          <a class="nav-link" href="#">美食推荐</a>
+          <a class="nav-link disabled" href="#">佳酿米酒</a>
+          <a class="nav-link " href="#">画画画板</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- 轮番图 -->
+  <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./assets/images/das1.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-md-block">
+          <h5>大能上自然风光</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/images/das2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-md-block">
+          <h5>大能上村庄全景图</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/images/das3.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-md-block">
+          <h5>大能上田野风光</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+    <div style="text-align: center;margin-top: 10px;">大能上/<a href="#"><span>热点新闻</span> </a></div>
+  </div>
+  <!-- 新闻栏目 -->
+  <div class="xinwen1">
+    <ul>
+      <li style="background-image: url('./assets/images/das11.jpg');">
+        <div class="up"><a href="#">陈梦与孙颖莎都是为国而战，别让饭圈文化侵蚀中国乒乓</a></div>
+      </li>
+      <li style="background-image: url('./assets/images/das10.jpg');">
+        <div class="up"><a href="#">百色田阳的芒果真的好吃嘛？？？</a></div>
+      </li>
+      <li style="background-image: url('./assets/images/das9.jpg');">
+        <div class="up"><a href="#">如何养育美丽好看的多肉植物！</a></div>
+      </li>
+    </ul>
+  </div>
+  <!-- 美食推荐 -->
+  <div style="text-align: center;margin-top: 10px;">大能上/<a href="#"><span>美食推荐</span> </a></div>
+  <div class="row row-cols-1 row-cols-md-2 g-4">
+    <div class="col">
+      <div class="card">
+        <img src="./assets/images/das12.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">螺蛳粉</h5>
+          <p class="card-text">螺蛳粉其特色在于使用螺蛳熬制的汤底，搭配细软的米粉，以及酸笋、油炸腐竹、酸豆角、花生米等多种配料。味道独特，酸辣鲜香，汤底浓郁，米粉滑顺，配料丰富，深受食客喜爱</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="./assets/images/das13.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">田阳酸嘢</h5>
+          <p class="card-text">“酸嘢”是广西及周边地区的一种特色小吃，它主要是将水果或蔬菜切成薄片或条，然后用盐、糖、醋等调料腌制，有的还会加入辣椒、蒜末等调味品，制成一种酸甜微辣、口感脆爽的小吃。</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="./assets/images/das14.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">芋头扣肉</h5>
+          <p class="card-text">这道菜将五花肉先炸后蒸，使之肥而不腻，再与芋头片层层叠放，一同蒸至软烂。蒸的过程中，肉的油脂会渗透到芋头中，使芋头吸收肉香，变得香滑可口，而肉质则更加酥软，入口即化。</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="./assets/images/das15.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">万物可酿</h5>
+          <p class="card-text">
+            酿菜的做法是将各种食材如豆腐、茄子、辣椒、苦瓜等挖空或切开，然后填入肉，经过蒸、煮、煎、炸等烹饪方式制作而成。酿菜的特点是馅料鲜美，外皮或酥脆或软糯，既能保留原食材的风味，又能融入肉馅的香浓。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div style="text-align: center;margin-top: 10px;">大能上/<a href="#"><span>画画画板</span> </a></div>
+  <!-- 画画画板 -->
+  <div class="meau">
+    <div class="button">画板</div>
+    <div class="button" id="clear">重置</div>
+    <div class="button" id="save">保存</div>
+  </div>
+
+  <div class="window">
+    <canvas id="canvas" width="300" height="300"></canvas>
+  </div>
+  <script src="./Bootstrap/js/bootstrap.min.js"> </script>
+  <script src="./js/canvas画板.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,77 @@
+// out: ../css/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+.bg-body-tertiary{
+  background-color: rgba(171, 232, 247,0.5) !important;
+  .navbar-collapse {
+    flex-grow: 0;
+  }
+  border-radius: 5px;
+}
+.xinwen1{
+  
+  background-color: #e7e7e7;
+  width: 100%;
+  height: 200px;
+  // border: 1px solid #000;
+  ul{
+    display: flex;
+    margin-top: 25px;
+    margin-left: -20px;
+    margin-right: 15px;
+    justify-content: space-between;
+    li:hover{
+      transform: scale(1.2);
+       }
+    li{
+      width: 100px;
+      height: 150px;
+      border-radius: 6px;
+      // border:1px solid #c01717;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      transition: all 1s;
+     
+      .up{
+        margin-top: 100px;
+        text-align: center;
+        font-size: 8px;
+        a{
+          color: aliceblue;
+          
+        }
+        a:hover{
+          color: rgb(49, 153, 238);
+        }
+      }
+      }
+  }
+ 
+}
+#canvas{
+  display: block;
+  margin: auto;
+  // width: 300px;
+  // height: 300px;
+  background-color: rgb(246, 237, 194);
+}
+.meau{
+  display: flex;
+  height: 60px;
+  color: rgb(220, 251, 255);
+  background-color: black;
+}
+.meau .button{
+  margin-left: 10px;
+  line-height: 60px;
+}
